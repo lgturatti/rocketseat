@@ -1,0 +1,40 @@
+.container {
+    background: var(--gray-500);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+}
+
+.left {
+    background: transparent;
+    border: 0px;
+    padding: 1rem;
+}
+
+.message {
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    width: 100%;
+}
+
+.messageOverline {
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    text-decoration: line-through;
+    width: 100%;
+}
+
+.right {
+    background: transparent;
+    border: 0px;
+    display: flex;
+    float: right;
+    justify-content: flex-end;
+    padding: 1rem;
+    padding-top: 1rem;
+}

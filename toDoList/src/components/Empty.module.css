@@ -1,0 +1,13 @@
+.empty {
+    align-items: center;
+    background: var(--gray-400);
+    display: flex;
+    flex-direction: column;
+    height: 15.25rem;
+    justify-content: center;
+    width: 46rem;
+}
+
+img {
+    padding-bottom: 1rem;
+}
