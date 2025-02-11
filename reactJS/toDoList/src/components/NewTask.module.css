@@ -1,0 +1,35 @@
+.form {
+    align-content: center;
+    background: transparent;
+    display: flex;
+    height: 3.6rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -27px;
+    overflow: hidden;  
+    width: 46rem;
+}
+
+.form > input {
+    background: var(--gray-500);
+    border: 0px;
+    border-radius: 8px;
+    color: var(--gray-300);
+    padding: 1rem;
+    width: 100%
+}
+
+.form button {
+    align-items: center;
+    justify-content: center;
+    background: var(--blueDark);
+    border: 0px;
+    border-radius: 8px;
+    color: var(--gray-100);
+    display: flex;
+    padding: 1rem;
+}
+
+.form img {
+    padding-left: 0.5rem;
+}
