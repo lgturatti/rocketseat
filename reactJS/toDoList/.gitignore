@@ -1,0 +1,42 @@
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore node_modules for Node.js projects
+node_modules/
+
+# Ignore npm log files
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Ignore environment variable files
+.env
+
+# Ignore build directories
+/dist
+/build
+/out
+
+# Ignore log files
+*.log
+
+# Ignore IDE/Editor specific files
+.vscode/
+.idea/
+
+# Ignore package manager lock files (you can include these if you prefer to lock dependencies)
+package-lock.json
+yarn.lock
+
+# Ignore test coverage files
+coverage/
+
+# Ignore dependency directories
+bower_components/
+
+# Ignore other temporary files
+*.swp
+*.swo
+*.bak
+*.tmp
